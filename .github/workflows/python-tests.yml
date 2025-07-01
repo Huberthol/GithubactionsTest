@@ -29,4 +29,4 @@ jobs:
         uses: browser-actions/setup-chrome@v1
 
       - name: Run tests (Chrome headless)
-        run: pytest tests/ --browser=chrome --headless
+        run: pytest tests/ --headless --browser=chrome
