@@ -27,7 +27,6 @@ jobs:
 
     - name: Debug Chrome and Chromedriver versions
       run: |
-        which chromedriver
         chromedriver --version
         google-chrome --version
 
